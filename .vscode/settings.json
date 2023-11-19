@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/3454bf1b-fc41-4a5c-911e-84d23d08c9fd/resourceGroups/ASTRO2/providers/Microsoft.Web/sites/asolixastro",
+    "appService.deploySubpath": "."
+}
