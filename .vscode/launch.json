@@ -6,6 +6,22 @@
       "name": "Development server",
       "request": "launch",
       "type": "node-terminal"
+    },
+    {
+      "name": "Attach to Node Functions",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "preLaunchTask": "func: host start"
+    },
+    {
+      "name": "SWA: Run solixtechnologies (swa-cli.config.json)",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:4321",
+      "preLaunchTask": "swa: start solixtechnologies",
+      "webRoot": "${workspaceFolder}/.",
+      "timeout": 30000
     }
   ]
 }
